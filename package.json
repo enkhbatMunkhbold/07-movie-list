@@ -1,0 +1,28 @@
+{
+  "name": "hrext07-movie-list",
+  "version": "1.0.0",
+  "description": "\"Create Movie List with React and ES6\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enkhbatMunkhbold/hrext07-movie-list.git"
+  },
+  "author": "Enkhbat Munkhbold",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enkhbatMunkhbold/hrext07-movie-list/issues"
+  },
+  "homepage": "https://github.com/enkhbatMunkhbold/hrext07-movie-list#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5"
+  }
+}

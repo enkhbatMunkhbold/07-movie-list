@@ -1,10 +1,9 @@
-import movies from './data.js';
+// import movies from './data.jsx';
 
 class App extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            movieList: movies,
             inputText: ''
         }
         this.handleChange = this.handleChange.bind(this);
@@ -14,14 +13,15 @@ class App extends React.Component {
     handleChange(e) {
         const inputText = e.target.value;
         this.setState({inputText});
-        console.log(inputText);
+        // console.log(inputText);
     }
 
     handleSearch () {
-        const movies = this.props.movieList;
-        const input = this.props.inputText;
-        const filteredMovies = movies.filter(movie => movie.title.includes(input));
-        console.log(filteredMovies);
+        const movies = this.props.movies;
+        console.log(movies)
+        // const input = this.props.inputText;
+        // const filteredMovies = movies.filter(movie => movie.title.includes(input));
+        // console.log(filteredMovies);
         // console.log(this.props.inputText);
     }
 

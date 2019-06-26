@@ -4,7 +4,9 @@
   "description": "\"Create Movie List with React and ES6\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server",
+    "transpile": "babel src --presets @babel/preset-react --out-dir lib --ignore=node_modules,lib --source-maps inline -w"
   },
   "repository": {
     "type": "git",
@@ -18,11 +20,22 @@
   "homepage": "https://github.com/enkhbatMunkhbold/hrext07-movie-list#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "underscore": "^1.9.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.5",
-    "@babel/preset-env": "^7.4.5"
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "eslint": "^6.0.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-react": "^7.14.2",
+    "eslint-plugin-standard": "^4.0.0"
   }
 }
